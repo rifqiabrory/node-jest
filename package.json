@@ -1,0 +1,32 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "Node TDD using Jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifqiabrory/node-jest.git"
+  },
+  "keywords": [
+    "Jest",
+    "TDD",
+    "Nodejs"
+  ],
+  "author": "Rifqi Abrory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifqiabrory/node-jest/issues"
+  },
+  "homepage": "https://github.com/rifqiabrory/node-jest#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
